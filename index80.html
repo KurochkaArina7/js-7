@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+$(document).ready(function () {
+$("#but1").click(function () {
+$("#footerContent").hide();
+});
+$("#but2").click(function () {
+$("#footerContent").show();
+});
+});
+</script>
+</head>
+<body>
+<h2>Это заголовок 2 уровня!</h2>
+<p>А это абзац!</p>
+<p id="footerContent">Нечетный элемент.</p>
+<p id="footerContent">Четный элемент.</p>
+<button id="but1">Спрятать элементы </button>
+<button id="but2">Показать элементы</button>
+</body>
+</html>
